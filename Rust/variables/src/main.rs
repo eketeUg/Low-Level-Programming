@@ -15,8 +15,16 @@
 //     println!("the value of x is: {x}");
 // }
 
+// fn main() {
+//     let spaces = "   ";
+//     let spaces = spaces.len();
+//     println!("the value of spaces is: {spaces}");
+// }
+
+// integer type
+
 fn main() {
-    let spaces = "   ";
-    let spaces = spaces.len();
-    println!("the value of spaces is: {spaces}");
+    let x = 2.0; // f64
+
+    let y: f32 = 3.0; // f32
 }
