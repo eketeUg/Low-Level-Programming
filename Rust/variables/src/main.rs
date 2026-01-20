@@ -42,10 +42,26 @@
 
 // The variable tup binds to the entire tuple because a tuple is considered a single compound element. To get the individual values out of a tuple, we can use pattern matching to destructure a tuple value, like this:
 
+// fn main() {
+//     let tup = (500, 6.4, 1);
+
+//     let (x, y, z) = tup;
+
+//     println!("The value of y is: {y}");
+// }
+
+// fn main() {
+//     let x: (i32, f64, u8) = (500, 6.4, 1);
+
+//     let five_hundred = x.0;
+
+//     let six_point_four = x.1;
+
+//     let one = x.2;
+// }
+
 fn main() {
-    let tup = (500, 6.4, 1);
-
-    let (x, y, z) = tup;
-
-    println!("The value of y is: {y}");
+    let mut x: (i32, i32) = (1, 2);
+    x.0 = 0;
+    x.1 += 5;
 }
